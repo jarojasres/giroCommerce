@@ -28,6 +28,7 @@ app.UseSwagger();
 app.UseSwaggerUI();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+app.UseCors("CorsPolicy");
 
 app.UseAuthorization();
 
